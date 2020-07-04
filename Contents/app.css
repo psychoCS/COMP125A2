@@ -1,0 +1,122 @@
+.navbar {
+    align-items: center;
+    color: rgb(255, 0, 157);
+
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+}
+
+.nav-item {
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 5px;
+
+}
+
+.about {
+    position: relative;
+    widows: 100%;
+    display: flex;
+    background: #B0337F;
+}
+
+.about .contentBx {
+    background: #5F44AD;
+    padding: 100px;
+    width: 50%;
+}
+
+.side img {
+    width: 400px;
+    height: 540px;
+}
+
+.heading {
+    color: rgb(255, 0, 157);
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: rgb(238, 67, 170);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.about .imgBx {
+    width: 50%;
+    max-height: 500px;
+}
+
+.about .imgBx img {
+    height: 140%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.sidebyside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sidebyside .side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.secondParagraph {
+    color: rgb(238, 67, 170);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.services {
+    background: #12222d;
+    padding: 150px;
+    text-align: center;
+}
+
+.services .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.services .container .servicesBx {
+    position: relative;
+    background: #fff;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .container .servicesBx img {
+    max-width: 450px;
+}
+
+.services .container .servicesBx h2 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.text1 {
+    font-size: 16px;
+}
